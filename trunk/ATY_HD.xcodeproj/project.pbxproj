@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D94FC60562CBF700B6AF17 /* ATY_HD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* ATY_HD.h */; };
+		32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		32D94FCA0562CBF700B6AF17 /* ATY_HD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* ATY_HD.cpp */; settings = {ATTRIBUTES = (); }; };
+		F50659E50F686071008E7AAC /* ATY_DDC.h in Headers */ = {isa = PBXBuildFile; fileRef = F50659E30F686071008E7AAC /* ATY_DDC.h */; };
+		F50659E60F686071008E7AAC /* ATY_DDC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50659E40F686071008E7AAC /* ATY_DDC.cpp */; };
+		F50659F10F68647C008E7AAC /* ATY_HW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50659F00F68647C008E7AAC /* ATY_HW.cpp */; };
+		F5065A8C0F6870F9008E7AAC /* ATY_math.h in Headers */ = {isa = PBXBuildFile; fileRef = F5065A8A0F6870F9008E7AAC /* ATY_math.h */; };
+		F5065A8D0F6870F9008E7AAC /* ATY_math.c in Sources */ = {isa = PBXBuildFile; fileRef = F5065A8B0F6870F9008E7AAC /* ATY_math.c */; };
+		F5065AA50F687258008E7AAC /* ATY_HW.h in Headers */ = {isa = PBXBuildFile; fileRef = F5065AA40F687258008E7AAC /* ATY_HW.h */; };
+		F5ADA02B0F5AE3540056D9EC /* ATY_Driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5ADA0270F5AE3540056D9EC /* ATY_Driver.cpp */; };
+		F5ADA02C0F5AE3540056D9EC /* ATY_Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5ADA0280F5AE3540056D9EC /* ATY_Interface.cpp */; };
+		F5ADA02D0F5AE3540056D9EC /* ATY_Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ADA0290F5AE3540056D9EC /* ATY_Interface.h */; };
+		F5ADA02E0F5AE3540056D9EC /* ATY_Struct.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ADA02A0F5AE3540056D9EC /* ATY_Struct.h */; };
+		F5ADA03C0F5AFD0C0056D9EC /* IONDRV.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ADA03B0F5AFD0C0056D9EC /* IONDRV.h */; };
+		F5D198F30F7BDC120085C646 /* ATY_String.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D198F20F7BDC120085C646 /* ATY_String.h */; };
+		F5D7A3B90F618FBB00D469AA /* ATY_Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D7A3B80F618FBB00D469AA /* ATY_Driver.h */; };
+		F5DDF3F00F5C6C8E00341676 /* IONDRVLibraries.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DDF3EF0F5C6C8E00341676 /* IONDRVLibraries.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3EFF42367911CA2CB7 /* ATY_HD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_HD.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* ATY_HD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATY_HD.cpp; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* ATY_HD.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATY_HD.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+		F50659E30F686071008E7AAC /* ATY_DDC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_DDC.h; sourceTree = "<group>"; };
+		F50659E40F686071008E7AAC /* ATY_DDC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATY_DDC.cpp; sourceTree = "<group>"; };
+		F50659F00F68647C008E7AAC /* ATY_HW.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATY_HW.cpp; sourceTree = "<group>"; };
+		F5065A8A0F6870F9008E7AAC /* ATY_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_math.h; sourceTree = "<group>"; };
+		F5065A8B0F6870F9008E7AAC /* ATY_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ATY_math.c; sourceTree = "<group>"; };
+		F5065AA40F687258008E7AAC /* ATY_HW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_HW.h; sourceTree = "<group>"; };
+		F5ADA0270F5AE3540056D9EC /* ATY_Driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATY_Driver.cpp; sourceTree = "<group>"; };
+		F5ADA0280F5AE3540056D9EC /* ATY_Interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATY_Interface.cpp; sourceTree = "<group>"; };
+		F5ADA0290F5AE3540056D9EC /* ATY_Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_Interface.h; sourceTree = "<group>"; };
+		F5ADA02A0F5AE3540056D9EC /* ATY_Struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_Struct.h; sourceTree = "<group>"; };
+		F5ADA03B0F5AFD0C0056D9EC /* IONDRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IONDRV.h; sourceTree = "<group>"; };
+		F5D198F20F7BDC120085C646 /* ATY_String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_String.h; sourceTree = "<group>"; };
+		F5D7A3B80F618FBB00D469AA /* ATY_Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATY_Driver.h; sourceTree = "<group>"; };
+		F5DDF3EF0F5C6C8E00341676 /* IONDRVLibraries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IONDRVLibraries.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ATY_HD */ = {
+			isa = PBXGroup;
+			children = (
+				247142CAFF3F8F9811CA285C /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = ATY_HD;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FCF0562CBF700B6AF17 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* ATY_HD.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F5ADA03B0F5AFD0C0056D9EC /* IONDRV.h */,
+				F5DDF3EF0F5C6C8E00341676 /* IONDRVLibraries.h */,
+				F5ADA0290F5AE3540056D9EC /* ATY_Interface.h */,
+				F5ADA0280F5AE3540056D9EC /* ATY_Interface.cpp */,
+				F5ADA02A0F5AE3540056D9EC /* ATY_Struct.h */,
+				1A224C3EFF42367911CA2CB7 /* ATY_HD.h */,
+				1A224C3FFF42367911CA2CB7 /* ATY_HD.cpp */,
+				F5D198F20F7BDC120085C646 /* ATY_String.h */,
+				F5D7A3B80F618FBB00D469AA /* ATY_Driver.h */,
+				F5ADA0270F5AE3540056D9EC /* ATY_Driver.cpp */,
+				F50659E30F686071008E7AAC /* ATY_DDC.h */,
+				F50659E40F686071008E7AAC /* ATY_DDC.cpp */,
+				F5065AA40F687258008E7AAC /* ATY_HW.h */,
+				F50659F00F68647C008E7AAC /* ATY_HW.cpp */,
+				F5065A8A0F6870F9008E7AAC /* ATY_math.h */,
+				F5065A8B0F6870F9008E7AAC /* ATY_math.c */,
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC60562CBF700B6AF17 /* ATY_HD.h in Headers */,
+				F5ADA02D0F5AE3540056D9EC /* ATY_Interface.h in Headers */,
+				F5ADA02E0F5AE3540056D9EC /* ATY_Struct.h in Headers */,
+				F5ADA03C0F5AFD0C0056D9EC /* IONDRV.h in Headers */,
+				F5DDF3F00F5C6C8E00341676 /* IONDRVLibraries.h in Headers */,
+				F5D7A3B90F618FBB00D469AA /* ATY_Driver.h in Headers */,
+				F50659E50F686071008E7AAC /* ATY_DDC.h in Headers */,
+				F5065A8C0F6870F9008E7AAC /* ATY_math.h in Headers */,
+				F5065AA50F687258008E7AAC /* ATY_HW.h in Headers */,
+				F5D198F30F7BDC120085C646 /* ATY_String.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* ATY_HD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "ATY_HD" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATY_HD;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = ATY_HD;
+			productReference = 32D94FD00562CBF700B6AF17 /* ATY_HD.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "ATY_HD" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* ATY_HD */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* ATY_HD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC80562CBF700B6AF17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FCA0562CBF700B6AF17 /* ATY_HD.cpp in Sources */,
+				F5ADA02B0F5AE3540056D9EC /* ATY_Driver.cpp in Sources */,
+				F5ADA02C0F5AE3540056D9EC /* ATY_Interface.cpp in Sources */,
+				F50659E60F686071008E7AAC /* ATY_DDC.cpp in Sources */,
+				F50659F10F68647C008E7AAC /* ATY_HW.cpp in Sources */,
+				F5065A8D0F6870F9008E7AAC /* ATY_math.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.ATY_HD;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = ATY_HD;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.ATY_HD;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = ATY_HD;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "ATY_HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "ATY_HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
