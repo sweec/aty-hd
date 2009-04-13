@@ -1,9 +1,0 @@
-ca05c85577af8cc0362e14fc121c0cd0 4684ce4606b4be7d1a6c2434cfe9ff60 ffffffffffffffffffffffffffffffff 102 /Users/dong/project/ATY_HD/build/Debug/ATY_HD.kext
-cd803f3186e8bad6a3215456192a1d8d a5ad4c6ad02d5c180a8916c668c13990 ffffffffffffffffffffffffffffffff 76896 /Users/dong/project/ATY_HD/build/Debug/ATY_HD.kext/Contents/MacOS/ATY_HD
-00000000417f628000000000000118bb 57f6297bb88b2eafb11334d1a687380a ffffffffffffffffffffffffffffffff 24356 /Users/dong/project/ATY_HD/build/ATY_HD.build/Debug/ATY_HD.build/Objects-normal/i386/ATY_Driver.o
-00000000069613680000000000004b23 fa6ee7ecc391bf921e00104e8377a5b8 ffffffffffffffffffffffffffffffff 60076 /Users/dong/project/ATY_HD/build/ATY_HD.build/Debug/ATY_HD.build/Objects-normal/i386/ATY_Interface.o
-000000004f38edab0000000000004f5d f59e81df0e4ab8a8ae03cdfe4c8366d3 ffffffffffffffffffffffffffffffff 65520 /Users/dong/project/ATY_HD/build/ATY_HD.build/Debug/ATY_HD.build/Objects-normal/i386/ATY_HD.o
-0000000049af02e10000000000000180 95867079fa3e4f11a231bd377058fb47 ffffffffffffffffffffffffffffffff 3464 /Users/dong/project/ATY_HD/build/ATY_HD.build/Debug/ATY_HD.build/Objects-normal/i386/ATY_HD_info.o
-0000000049aaab93000000000000005c f2a5ce35ff6f98698d0da2a02395458b ffffffffffffffffffffffffffffffff 92 /Users/dong/project/ATY_HD/build/Debug/ATY_HD.kext/Contents/Resources/English.lproj/InfoPlist.strings
-00000000000000000000000000000000 508d753b97af59f4128bf4cc40626d1a ffffffffffffffffffffffffffffffff 1894 /Users/dong/project/ATY_HD/build/Debug/ATY_HD.kext/Contents/Info.plist
-00000000000000000000000000000000 adf7d4339d73f872c20a326e5fe46dfe ffffffffffffffffffffffffffffffff 1985 /Users/dong/project/ATY_HD/build/ATY_HD.build/Debug/ATY_HD.build/Preprocessed-Info.plist
