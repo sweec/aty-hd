@@ -1,0 +1,1 @@
+Some of the radeon HD video cards are not supported by apple's native drivers yet. Here is an effort to make an workable framebuffer driver for these cards by either borrowing apple's codes or porting the codes from Linux open-source drivers.
